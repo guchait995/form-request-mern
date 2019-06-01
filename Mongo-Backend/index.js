@@ -11,7 +11,6 @@ const CONNECTION_URL =
 const DATABASE_NAME = "form";
 
 var database, collection;
-
 const io = require("socket.io")();
 io.origins("*:*");
 
