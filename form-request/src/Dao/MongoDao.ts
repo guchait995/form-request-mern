@@ -17,7 +17,7 @@ import { openSnackbar } from "../Components/CustomSnackbar";
 let currnetUsername = "";
 let setNotificationFn;
 export const socket = require("socket.io-client")(
-  "https://dry-anchorage-81683.herokuapp.com/"
+  "https://morning-woodland-72857.herokuapp.com/"
 );
 export const initSocketUsername = username => {
   currnetUsername = username;
