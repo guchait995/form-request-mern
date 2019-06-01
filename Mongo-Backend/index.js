@@ -1,5 +1,3 @@
-const Express = require("express");
-const BodyParser = require("body-parser");
 const Promise = require("promise");
 const MongoClient = require("mongodb").MongoClient;
 const q = require("q");
@@ -11,11 +9,6 @@ const REQUEST_RAISE_FOR_APPROVAL = 3;
 const CONNECTION_URL =
   "mongodb+srv://resturant:sourav@cluster0-15mlv.mongodb.net/test?retryWrites=true&w=majority";
 const DATABASE_NAME = "form";
-
-var app = Express();
-
-app.use(BodyParser.json());
-app.use(BodyParser.urlencoded({ extended: true }));
 
 var database, collection;
 
