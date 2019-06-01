@@ -1,0 +1,193 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Avenir LT Std 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 55 Roman"),
+    url("../Stylesheet/AvenirLTStd-Roman.woff") format("woff");
+}
+
+* {
+  font-family: "Avenir LT Std 55 Roman";
+}
+/* header */
+.header {
+  background-color: bisque;
+}
+a {
+  text-decoration: none;
+}
+
+.main-body {
+  margin: 10px;
+}
+.header-link {
+  color: white;
+  margin-left: 20px;
+}
+
+.header-link:hover {
+  color: rgb(255, 185, 160);
+}
+
+.header-link-active {
+  color: rgb(174, 245, 245);
+}
+
+/* scrollbar */
+.centre-box > *::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+
+.centre-box > *::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255);
+  border-radius: 2px;
+  margin-top: 5px;
+  border-style: hidden;
+}
+.centre-box > *::-webkit-scrollbar-thumb {
+  background-color: #03284ead;
+  outline: 1px solid #03284ec7;
+  border-radius: 2px;
+  border-style: hidden;
+}
+
+.centre-box {
+  margin: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.centre-box > form {
+  margin: 10px;
+}
+.box-heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+.request-list {
+  margin-top: 10px;
+  height: 75vh;
+  overflow-y: scroll;
+}
+.each-request {
+  box-shadow: 0px 2px 5px 2px rgb(180, 180, 180);
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.request-to-email {
+  font-weight: 700;
+}
+.request-to-email > span {
+  font-weight: 400;
+}
+.request-from-email {
+  font-weight: 700;
+}
+.request-from-email > span {
+  font-weight: 400;
+}
+.request-status {
+  font-weight: 700;
+}
+.request-status > span {
+  font-weight: 400;
+}
+.request-department {
+  font-weight: 700;
+}
+.request-department > span {
+  font-weight: 400;
+}
+/* approve-button */
+.approve-button {
+  text-align: right;
+  margin-top: 10px;
+}
+.approve-button > button {
+  margin-left: 10px;
+}
+
+/* loadingpage */
+.full-page {
+  height: 100vh;
+  widows: 100vw;
+}
+
+.page-centre {
+}
+
+.loading {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  margin-top: -25px;
+  margin-left: -25px;
+  content: url("../icons/ripple.svg");
+}
+
+.table {
+  width: 70vw;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255);
+  border-radius: 2px;
+  margin-top: 5px;
+  border-style: hidden;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #03284ead;
+  outline: 1px solid #03284ec7;
+  border-radius: 2px;
+  border-style: hidden;
+}
+.modal-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 300px;
+  transform: translate(-50%, -50%);
+  outline: none;
+  background-color: white;
+  border-radius: 3px;
+}
+.notification-header {
+  background-color: rgba(179, 176, 176, 0.384);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  border-top-right-radius: 3px;
+
+  border-top-left-radius: 3px;
+}
+.notification-body {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.small-loading {
+  width: 100%;
+  background-color: black;
+}
