@@ -1,0 +1,14 @@
+{
+  "name": "Mongo-Backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Sourav Guchait",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.2.6",
+    "promise": "^8.0.3",
+    "q": "^1.5.1",
+    "socket.io": "^2.2.0"
+  }
+}
